@@ -47,7 +47,7 @@ Modu³ Inline::ASM - pozwalaj±cy pisaæ funkcje Perla w asemblerze.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-perl Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null
 %{__make}
 %{!?_without_tests:%{__make} test}
 
