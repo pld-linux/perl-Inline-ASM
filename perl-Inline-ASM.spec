@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	ASM
-Summary:	Inline::ASM perl module
-Summary(pl):	Modu³ perla Inline::ASM
+%define		pdir	Inline
+%define		pname	ASM
+Summary:	Inline::ASM Perl module
+Summary(cs):	Modul Inline::ASM pro Perl
+Summary(da):	Perlmodul Inline::ASM
+Summary(de):	Inline::ASM Perl Modul
+Summary(es):	Módulo de Perl Inline::ASM
+Summary(fr):	Module Perl Inline::ASM
+Summary(it):	Modulo di Perl Inline::ASM
+Summary(ja):	Inline::ASM Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::ASM ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::ASM
+Summary(pl):	Modu³ Perla Inline::ASM
+Summary(pt):	Módulo de Perl Inline::ASM
+Summary(pt_BR):	Módulo Perl Inline::ASM
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::ASM
+Summary(sv):	Inline::ASM Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::ASM
+Summary(zh_CN):	Inline::ASM Perl Ä£¿é
 Name:		perl-Inline-ASM
 Version:	0.03
 Release:	1
@@ -31,6 +49,7 @@ Modu³ Inline::ASM - pozwalaj±cy pisaæ funkcje Perla w asemblerze.
 %build
 perl Makefile.PL </dev/null
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
