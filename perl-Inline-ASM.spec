@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	ASM
+%define		pnam	ASM
 Summary:	Inline::ASM Perl module
 Summary(cs):	Modul Inline::ASM pro Perl
 Summary(da):	Perlmodul Inline::ASM
@@ -28,7 +28,7 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	af0241d8d9993598fc146eab4be247b2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline-C >= 0.42
@@ -47,7 +47,7 @@ Inline::ASM - Write Perl Subroutines in assembler.
 Modu³ Inline::ASM - pozwalaj±cy pisaæ funkcje Perla w asemblerze.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL </dev/null \
