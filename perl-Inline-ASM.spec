@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Inline
+%define	pdir	Inline
 %define		pname	ASM
 Summary:	Inline::ASM Perl module
 Summary(cs):	Modul Inline::ASM pro Perl
