@@ -23,7 +23,7 @@ Summary(uk):	Модуль для Perl Inline::ASM
 Summary(zh_CN):	Inline::ASM Perl дё©И
 Name:		perl-Inline-ASM
 Version:	0.03
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
