@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::ASM
 Summary(it):	Modulo di Perl Inline::ASM
 Summary(ja):	Inline::ASM Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::ASM ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::ASM
+Summary(nb):	Perlmodul Inline::ASM
 Summary(pl):	Modu³ Perla Inline::ASM
 Summary(pt):	Módulo de Perl Inline::ASM
 Summary(pt_BR):	Módulo Perl Inline::ASM
