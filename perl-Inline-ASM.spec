@@ -23,13 +23,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::ASM
 Summary(zh_CN):	Inline::ASM Perl Ä£¿é
 Name:		perl-Inline-ASM
 Version:	0.03
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline-C >= 0.42
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	binutils
 Requires:	gcc
 # module itself isn't arch-dependent (but asm syntax is)
@@ -47,7 +47,8 @@ Modu³ Inline::ASM - pozwalaj±cy pisaæ funkcje Perla w asemblerze.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-%{__perl} Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -66,6 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Inline/ASM.pm
+%{perl_vendorlib}/Inline/ASM.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
