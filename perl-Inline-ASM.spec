@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	ASM
 Summary:	Inline::ASM Perl module
-Summary(cs):	Modul Inline::ASM pro Perl
-Summary(da):	Perlmodul Inline::ASM
-Summary(de):	Inline::ASM Perl Modul
-Summary(es):	Módulo de Perl Inline::ASM
-Summary(fr):	Module Perl Inline::ASM
-Summary(it):	Modulo di Perl Inline::ASM
-Summary(ja):	Inline::ASM Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::ASM ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Inline::ASM
-Summary(pl):	Modu³ Perla Inline::ASM
-Summary(pt):	Módulo de Perl Inline::ASM
-Summary(pt_BR):	Módulo Perl Inline::ASM
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::ASM
-Summary(sv):	Inline::ASM Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::ASM
-Summary(zh_CN):	Inline::ASM Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Inline::ASM pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::ASM
+Summary(de.UTF-8):   Inline::ASM Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Inline::ASM
+Summary(fr.UTF-8):   Module Perl Inline::ASM
+Summary(it.UTF-8):   Modulo di Perl Inline::ASM
+Summary(ja.UTF-8):   Inline::ASM Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Inline::ASM í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Inline::ASM
+Summary(pl.UTF-8):   ModuÅ‚ Perla Inline::ASM
+Summary(pt.UTF-8):   MÃ³dulo de Perl Inline::ASM
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Inline::ASM
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::ASM
+Summary(sv.UTF-8):   Inline::ASM Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::ASM
+Summary(zh_CN.UTF-8):   Inline::ASM Perl æ¨¡å—
 Name:		perl-Inline-ASM
 Version:	0.03
 Release:	3
@@ -43,8 +43,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::ASM - Write Perl Subroutines in assembler.
 
-%description -l pl
-Modu³ Inline::ASM - pozwalaj±cy pisaæ funkcje Perla w asemblerze.
+%description -l pl.UTF-8
+ModuÅ‚ Inline::ASM - pozwalajÄ…cy pisaÄ‡ funkcje Perla w asemblerze.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
