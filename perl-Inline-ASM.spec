@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	ASM
 Summary:	Inline::ASM Perl module
-Summary(cs.UTF-8):   Modul Inline::ASM pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::ASM
-Summary(de.UTF-8):   Inline::ASM Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::ASM
-Summary(fr.UTF-8):   Module Perl Inline::ASM
-Summary(it.UTF-8):   Modulo di Perl Inline::ASM
-Summary(ja.UTF-8):   Inline::ASM Perl モジュール
-Summary(ko.UTF-8):   Inline::ASM 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::ASM
-Summary(pl.UTF-8):   Moduł Perla Inline::ASM
-Summary(pt.UTF-8):   Módulo de Perl Inline::ASM
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::ASM
-Summary(ru.UTF-8):   Модуль для Perl Inline::ASM
-Summary(sv.UTF-8):   Inline::ASM Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::ASM
-Summary(zh_CN.UTF-8):   Inline::ASM Perl 模块
+Summary(cs.UTF-8):	Modul Inline::ASM pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::ASM
+Summary(de.UTF-8):	Inline::ASM Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::ASM
+Summary(fr.UTF-8):	Module Perl Inline::ASM
+Summary(it.UTF-8):	Modulo di Perl Inline::ASM
+Summary(ja.UTF-8):	Inline::ASM Perl モジュール
+Summary(ko.UTF-8):	Inline::ASM 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::ASM
+Summary(pl.UTF-8):	Moduł Perla Inline::ASM
+Summary(pt.UTF-8):	Módulo de Perl Inline::ASM
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::ASM
+Summary(ru.UTF-8):	Модуль для Perl Inline::ASM
+Summary(sv.UTF-8):	Inline::ASM Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::ASM
+Summary(zh_CN.UTF-8):	Inline::ASM Perl 模块
 Name:		perl-Inline-ASM
 Version:	0.03
 Release:	3
