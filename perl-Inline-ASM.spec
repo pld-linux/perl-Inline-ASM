@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Inline::ASM
 Summary(zh_CN.UTF-8):	Inline::ASM Perl 模块
 Name:		perl-Inline-ASM
 Version:	0.03
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
