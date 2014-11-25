@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Inline
 %define		pnam	ASM
+%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::ASM Perl module
 Summary(cs.UTF-8):	Modul Inline::ASM pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::ASM
@@ -30,13 +30,14 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	af0241d8d9993598fc146eab4be247b2
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Inline-ASM/
 BuildRequires:	perl-Inline-C >= 0.42
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	binutils
 Requires:	gcc
 # module itself isn't arch-dependent (but asm syntax is)
-# examples are for x86, but... they are only examples :)
+# examples are for x86, but... they are only examples:)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
