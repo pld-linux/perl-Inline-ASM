@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	ASM
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::ASM Perl module
 Summary(cs.UTF-8):	Modul Inline::ASM pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::ASM
